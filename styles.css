@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* CSS RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+
+body {
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* MAIN */
+
+a {
+  text-decoration: none;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.equilibrium__card-container {
+  box-shadow: 5px 5px 12px 32px hsla(216, 45%, 9%, 0.35);
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  font-family: "Outfit", sans-serif;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+hr {
+  border: 1px solid;
+  border-color: hsl(215, 51%, 70%);
+  margin-left: 8%;
+  margin-right: 8%;
+  opacity: 0.1;
+}
+
+.equilibrium-view {
+  border-radius: 10px;
+  background-color: hsl(178, 100%, 50%);
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  padding: 29%;
+  right: 13.5%;
+  top: 25.5%;
+}
+
+.equilibrium-image {
+  border-radius: 10px;
+  margin-top: 7.5%;
+  margin-bottom: 5%;
+  width: 85%;
+}
+
+.equilibrium__text-container {
+  text-align: left;
+  margin-left: 8%;
+}
+
+.equilibrium__text h1 {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.equilibrium__text p {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.equilibrium__factors {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.equilibrium__ethereum {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  flex-direction: row;
+  padding-right: 15%;
+}
+
+.equilibrium__ethereum p {
+  padding-left: 8px;
+}
+
+.equilibrium__time-remaining {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  flex-direction: row;
+}
+
+.equilibrium__clock-image {
+  padding-right: 8px;
+}
+
+.equilibrium__creator {
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.equilibrium__creator-avatar {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 5%;
+  width: 10%;
+}
+
+.equilibrium__creator p {
+  margin-right: 8%;
+}
+
+.equilibrium__creator a {
+  color: #fff;
+}
+
+a:visited,
+a:active {
+  color: #fff;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.equilibrium-view:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (min-width: 32px) {
+  body {
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .equilibrium-view {
+    padding: 30%;
+    right: 13.5%;
+    top: 21.5%;
+  }
+
+  .equilibrium__text p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .equilibrium__ethereum {
+    padding-right: 25%;
+  }
+
+  .equilibrium__creator p {
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .equilibrium-view {
+    padding: 31%;
+    right: 13%;
+    top: 18.35%;
+  }
+
+  .equilibrium__text p {
+    font-size: 1.25rem;
+  }
+
+  .equilibrium__ethereum {
+    padding-right: 32%;
+  }
+
+  .equilibrium__creator p {
+    font-size: 1.25rem;
+    margin-right: 11%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .equilibrium__card-container {
+    margin: 20%;
+  }
+
+  .equilibrium-view {
+    padding: 17%;
+    right: 30%;
+    top: 19%;
+  }
+
+  .equilibrium__text p {
+    font-size: 1.2rem;
+  }
+
+  .equilibrium__ethereum {
+    padding-right: 30%;
+  }
+
+  .equilibrium__creator p {
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .equilibrium-view {
+    padding: 12.6%;
+    right: 35.1%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .equilibrium-view {
+    padding: 9%;
+    right: 39.4%;
+    top: 19%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .equilibrium-view {
+    padding: 6.8%;
+    right: 42%;
+    top: 21.4%;
+  }
+}
